@@ -1,0 +1,235 @@
+@charset "UTF-8";
+/* 기본 셋팅 */
+
+* { margin: 0; padding: 0; color: #333333;}
+
+.clearfix::after {content: '';clear: both; display: block;}
+
+ul, li { list-style: none;}
+
+a { text-decoration: none;}
+
+/* 와이어프레임 */
+
+
+.wrap { 
+    margin: 0 auto;
+    width: 1200px;
+    height: 700px;
+}
+
+header {
+    width: 1200px;
+    height: 100px;
+}
+
+.banner {
+    width: 1200px;
+    height: 300px;
+    overflow: hidden;
+   
+}
+
+.contents {
+    width: 1200px;
+    height: 200px;
+    background: #999;
+}
+
+footer {
+    width: 1200px;
+    height: 100px;
+}
+
+/* 헤더 */
+
+.logo {
+    float: left;
+    width: 200px;
+    height: 40px;
+}
+
+nav {
+    float: right;
+    width: 700px;
+}
+
+nav li {
+    float: left;
+    position: relative;
+    margin-top: 30px;
+    width: 25%;
+    float: left;
+    text-align: center;
+   
+}
+
+nav li a {
+ 
+    width: 25%;
+    font-size: 20px;
+}
+
+nav li .sub {
+    position: absolute;
+    display: none;
+    z-index: 5;
+    padding: 10px;
+  
+}
+
+nav ul li:first-child .sub {
+    padding-left: 480px;
+    left: -480px;
+    background: #453343;
+}
+
+
+nav li .sub li {
+    width: 100%;
+}
+
+/* 이미지 슬라이드 */
+
+.slideList {
+    position: relative;
+    width: 3600px;
+    height: 300px;
+
+}
+
+.slideImg {
+    
+    float: left;
+    width: 1200px;
+    height: 300px;
+
+}
+
+.slideList .slideImg img {
+    width: 1200px;
+    height: 300px;
+    display: block;
+  
+}
+/* 레이어 및 팝업 */
+
+.cont1 {
+    float: left;
+    background: #666;
+    width: 400px;
+    height: 200px;
+}
+
+.tab_menu {
+    text-align: center;
+    padding: 10px;
+}
+
+.tab_menu .tab_btn ul {
+    overflow: hidden;
+}
+
+.tab_menu .tab_btn ul li {
+    float: left;
+    width: 160px;
+    background: #FFF;
+}
+
+.tab_menu .tab_btn ul li a {
+    display: block;
+    padding: 10px;
+}
+
+.tab_menu .tab_cont {
+   
+    text-align: left;
+    padding: 20px;
+}
+
+.tab_cont {
+    background: #51ada8;
+    height: 100px;
+
+}
+
+.tab_menu .tab_cont a {
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+.gallery img {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+.layer {
+
+    display: none;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    background: #FFF;
+    
+}
+
+.layerbg {
+    top: 0;
+    left: 0;
+    display: none;
+    background: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.close {
+    font-size: 30px;
+    color: #333;
+}
+
+
+/* 배너 */
+
+.cont2 {
+    background: yellow;
+    width: 400px;
+    height: 200px;
+    float: left;
+}
+
+/* footer */
+
+.foot1 {
+    float: left;
+    width: 200px;
+    height: 100px;
+}
+
+.foot1 img {
+    padding: 10px;
+    margin-top: 20px;
+}
+.foot2 {
+    float: left;
+    text-align: center;
+    margin-top: 20px;
+    width: 800px;
+    height: 100px;
+}
+.foot3 {
+    float: left;
+   
+    width: 200px;
+    height: 100px;
+}
+
+.foot3 a img {
+    margin-top: 10px;
+    width: 62px;
+    
+}
